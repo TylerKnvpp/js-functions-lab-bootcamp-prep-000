@@ -3,18 +3,18 @@ function happyHolidays() {
 }
 
 function happyHolidaysTo (string) {
-  var name = "Anne"
+  var name = "you"
   return(`Happy Holidays, ${name}!`)
 }
 
 function happyHolidayTo (string) {
-  var holiday = "Birthday"
-  var name = "Anne"
+  var holiday = "Independance Day"
+  var name = "you"
   return(`Happy ${holiday}, ${name}`)
 }
 
 function holidayCountdown (string, Int) {
-  var days = 60;
-  var holiday = "your birthday"
+  var days = 20;
+  var holiday = "Mother's Day"
   return(`It's ${days} until ${holiday}`)
 }
